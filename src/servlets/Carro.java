@@ -1,4 +1,4 @@
-package bookshop;
+package servlets;
 
 import java.sql.SQLException;
 import java.util.List;
