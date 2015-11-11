@@ -1,4 +1,4 @@
-package bookshop;
+package servlets;
 
 public class Book {
 	private String title;
