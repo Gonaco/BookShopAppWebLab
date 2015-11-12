@@ -13,47 +13,13 @@ import javax.servlet.annotation.WebServlet;
 
     public class Carro extends HttpServlet {
 
-	private List<Book> compras = new ArrayList<Book>();
-
-
-
-	// private int id;
-
-	// public String getTitle() {
-	//  return title;
-	// }
-
-	// public void setTitle(String title) {
-	//  this.title = title;
-	// }
-
-	// public String getIsbn() {
-	//  return isbn;
-	// }
-
-	// public void setIsbn(String isbn) {
-	//  this.isbn = isbn;
-	// }
-
-	// public int getYear() {
-	//  return year;
-	// }
-
-	// public void setYear(int year) {
-	//  this.year = year;
-	// }
-
-	// public int getId() {
-	//  return id;
-	// }
-
-	// public void setId(int id) {
-	//  this.id = id;
-	// }
-
-	// public String toString() {
-	//  return isbn + " " + title + " (" + year + ")";
-	// }
+	private List<Book> compras;
+	private HttpSession user_session;
+	
+	public void createCarro (HttpServletRequest request){
+		//Iniciar o comprobar Sesi�n?
+		compras = new ArrayList<Book>();
+	}
 
         /**
 	 * Método del servlet que responde a una petición GET.
